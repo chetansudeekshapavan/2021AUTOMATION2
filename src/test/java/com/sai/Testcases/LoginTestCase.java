@@ -22,7 +22,7 @@ public class LoginTestCase extends BaseClass {
 		lp.setLogin();
 		logger.info("loginclicked");
 		Thread.sleep(5000);
-		if(driver.getPageSource().contains("Welcome To Manager's Page of Guru99 Bank###"))
+		if(driver.getPageSource().contains("Welcome To Manager's Page of Guru99 Bank"))
 		{
 			Assert.assertTrue(true);
 		}
